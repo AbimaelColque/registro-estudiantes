@@ -174,7 +174,7 @@ const limpiarCamposInscripcion = () => {
 };
 
 const eliminarRegistro = (storeName, id) => {
-  if (!confirm("¿Eliminar este registro y sus inscripciones relacionadas?")) return;
+  if (!confirm("¿Eliminar este registro?")) return;
 
   id = parseInt(id);
   const tx = db.transaction([storeName, "inscripciones"], "readwrite");
