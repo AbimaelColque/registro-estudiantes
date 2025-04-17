@@ -1,0 +1,88 @@
+:root {
+    --azul-principal: #03449E;
+    --negro-principal: #000000;
+}
+
+h2, h3 {
+    color: var(--negro-principal);
+}
+
+.btn-custom {
+    background-color: var(--azul-principal);
+    color: white;
+    border: none;
+    transition: background-color 0.5s;
+}
+
+.btn-custom:hover {
+    background-color: var(--negro-principal);
+    color: white;
+}
+
+.bg-custom-gradient {
+    background: linear-gradient(180deg,rgba(3, 68, 158, 1) 0%, rgba(87, 109, 199, 1) 50%, rgba(255, 255, 255, 1) 100%);
+}
+
+.bg-footer-gradient {
+    background: linear-gradient(0deg,rgba(3, 68, 158, 1) 0%, rgba(87, 109, 199, 1) 50%, rgba(255, 255, 255, 1) 100%);
+}
+
+.img-hover:hover .contenido-hover {
+    opacity: 1;
+}
+
+.social-icon {
+    font-size: 1.5rem;
+    margin: 0 10px;
+    color: white;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: var(--azul-principal);
+}
+
+.main-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.btn-main {
+  padding: 10px;
+  width: 200px;
+  margin: 15px;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-main i {
+  font-size: 2rem;
+  margin-right: 15px;
+}
+
+.modal-form {
+  max-width: 800px;
+}
+
+.table-responsive {
+  margin-top: 20px;
+}
+
+.form-section {
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.form-label {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
